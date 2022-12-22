@@ -19,7 +19,7 @@ const Mint: NextPage = (props) => {
     <div>
       <Head>
         <title>Mint NFT!</title>
-        <meta name="description" content="This site will fly high 🦤" />
+        <meta name="description" content="Mint Solana NFTs" />
       </Head>
       <AlertProvider template={AlertTemplate} {...options}>
         <CandyMachineMintView />

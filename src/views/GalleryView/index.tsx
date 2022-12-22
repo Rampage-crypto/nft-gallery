@@ -35,7 +35,7 @@ export const GalleryView: FC = ({}) => {
   };
 
   return (
-    <div className="container mx-auto max-w-6x1 p-0 2xl:px-0">
+    <div className="container mx-auto max-w-full p-0 2xl:px-0">
       <div className={styles.container}>
         <div className="text-center pt-2">
           <div className="hero min-h-16 p-0 pt-0">

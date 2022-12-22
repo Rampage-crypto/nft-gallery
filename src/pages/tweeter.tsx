@@ -7,7 +7,7 @@ const Home: NextPage = (props) => {
     <div>
       <Head>
         <title>Solana Tweeter!</title>
-        <meta name="description" content="This site will fly high 🦤" />
+        <meta name="description" content="Solana Tweeter" />
       </Head>
       <SolanaTweeterView />
     </div>
