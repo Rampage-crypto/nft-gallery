@@ -6,7 +6,7 @@ const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>SOL Kings Gallery</title>
+        <title>SOL Prints</title>
         <meta
           name="description"
           content="View and download your NFT images"

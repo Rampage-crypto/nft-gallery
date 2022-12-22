@@ -7,7 +7,7 @@ class MyDocument extends Document {
         <Head>
           <meta
             name="description"
-            content="Sol Kings' Era has begun"
+            content="Sol Prints"
           />
           <link rel="icon" href="/favicon.ico" />
 

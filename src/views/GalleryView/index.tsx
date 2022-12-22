@@ -54,10 +54,10 @@ export const GalleryView: FC = ({}) => {
                             onChange={onChange}
                             style={{
                               borderRadius:
-                                "0 0 var(--rounded-btn,.5rem) var(--rounded-btn,.5rem)",
+                                "var(--rounded-btn,.5rem)",
                             }}
                           />
-
+                  
                           <SelectAndConnectWalletButton
                             onUseWalletClick={onUseWalletClick}
                           />
@@ -103,10 +103,10 @@ const NftList = ({ nfts, error }: NftListProps) => {
   }
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-start">
+    <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-start">
       {nfts?.map((nft) => (
         <NftCard key={nft.mint} details={nft} onSelect={() => {}} />
-      ))}
+      ))}      
     </div>
   );
 };
