@@ -61,9 +61,9 @@ export const NftCard: FC<Props> = ({
           <div class="tooltip tooltip-left rounded-full" data-tip="Download">
             <div class="linear-gradient-puls-full-hover rounded-full p-px bg-black">
               <div className="App">
-                <a href='apple-touch-icon' download target="_blank">
+                <a href={image} download target="_blank">
                   <button class="button button-primary text-white p-2 rounded-full text-xl flex items-center">
-                    <svg xmlns="image" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="false"class="h-6 w-6 text-white-500">
+                    <svg xmlns={image} fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="false"class="h-6 w-6 text-white-500">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4">                    
                       </path>
                     </svg>
