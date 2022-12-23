@@ -46,6 +46,7 @@ export const GalleryView: FC = ({}) => {
                     <div className="form-control mt-0">
                       <label className="input-group input-group-vertical input-group-lg">
                         <div className="flex space-x-2">
+                          <img src="android-chrome-512x512.png" alt="solprints" width="75" height="75"></img>
                           <input
                             type="text"
                             placeholder="Enter Wallet Address"
@@ -57,7 +58,6 @@ export const GalleryView: FC = ({}) => {
                                 "var(--rounded-btn,.5rem)",
                             }}
                           />
-                  
                           <SelectAndConnectWalletButton
                             onUseWalletClick={onUseWalletClick}
                           />
@@ -66,6 +66,9 @@ export const GalleryView: FC = ({}) => {
                     </div>
                   </div>
                 </div>
+                <h1 className="mb-4 text-3xl">
+                  View and download Solana NFTs on SOL Prints
+                </h1>
                 <div className="my-10">
                   {!error && isLoading ? (
                     <div>

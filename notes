@@ -3,7 +3,7 @@
 //<div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
   <div className="flex-none">
     <button className="btn btn-square btn-ghost">
-      <span className="text-4xl">🏞</span>
+      <span className="text-4xl"> <img src="android-chrome-192x192.jpg" alt="SOlprints" width="192" height="192"></span>
     </button>
   </div>
   <div className="flex-1 px-2 mx-2">
