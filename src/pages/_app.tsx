@@ -10,7 +10,7 @@ import "../styles/App.css";
 // set custom RPC server endpoint for the final website
 // const endpoint = "https://explorer-api.devnet.solana.com";
 // const endpoint = "http://127.0.0.1:8899";
-const endpoint = "https://tame-responsive-ensemble.solana-mainnet.quiknode.pro/200b06ac8b145b68ea5c3411d8dad10aa3076f2e/";
+const endpoint = "https://side-hardworking-dawn.solana-mainnet.quiknode.pro/4131fc540844bef4f97267ac370edf43ac8bf3fb/";
 
 const WalletProvider = dynamic(
   () => import("../contexts/ClientWalletProvider"),
